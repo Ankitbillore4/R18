@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 const Navbar = () => {
   return (
@@ -16,7 +17,8 @@ const Navbar = () => {
           <li>Pages</li>
           <li>Cart <span className='bg-red-100 px-2 py-0.5  rounded-full text-center ml-1'>0</span></li>
         </ul>
-          <button className=' px-7 py-3 rounded-full border-1 font-light'>Get in Touch</button>
+          {/* <button className=' px-7 py-3 rounded-full border-1 font-light'>Get in Touch</button> */}
+          <Button text={"Get in touch"} style={"px-7 py-3 bg-black text-white rounded-full my-3"} />
       </div>
 
     </div>

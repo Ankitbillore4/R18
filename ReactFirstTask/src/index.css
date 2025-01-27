@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .slider-container {
+    position: relative;
+  }
+  
+  .slider-track {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .animate-slide {
+    animation: slide 20s linear infinite;
+  } 
+  

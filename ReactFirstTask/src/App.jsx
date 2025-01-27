@@ -1,10 +1,17 @@
 import React from 'react'
-import Section from './components/Section'
+import Navbar from './components/Navbar'
+import SectionOne from './components/SectionOne'
+import Cards from './components/Cards'
+import Slider from './components/Slider'
 
 const App = () => {
   return (
    <div>
-    <Section/>
+      <Navbar />
+       <SectionOne />
+       <Slider/>
+       <Cards/>
+
    </div>
   )
 }
