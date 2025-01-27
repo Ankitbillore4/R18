@@ -2,7 +2,7 @@ import React from 'react';
 
 const Slider = () => {
   return (
-    <div className="slider-container h-[6vh] w-full bg-blue-500 flex items-center justify-between  overflow-hidden">
+    <div className="slider-container h-[6vh] w-full  flex items-center justify-between  overflow-hidden">
       <div className="slider-track flex gap-28 w-max animate-slide">
         <img src="/images/s1.svg" alt="s1" className="h-full mx-4" />
         <img src="/images/s2.svg" alt="s2" className="h-full mx-4" />

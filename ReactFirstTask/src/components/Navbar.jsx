@@ -3,7 +3,7 @@ import Button from './Button'
 
 const Navbar = () => {
   return (
-    <div className='nav h-20 w-full bg-green-700 flex items-center justify-between px-16'>
+    <div className='nav h-20 w-full  flex items-center justify-between px-16 border-b-1'>
       <div className='left flex gap-5'>
         <img src="images/logo.svg" alt="" />
         <h1 className='bg-red-100 px-2 rounded-full text-sm py-1'>We are hiring!</h1>
@@ -17,10 +17,8 @@ const Navbar = () => {
           <li>Pages</li>
           <li>Cart <span className='bg-red-100 px-2 py-0.5  rounded-full text-center ml-1'>0</span></li>
         </ul>
-          {/* <button className=' px-7 py-3 rounded-full border-1 font-light'>Get in Touch</button> */}
           <Button text={"Get in touch"} style={"px-7 py-3 bg-black text-white rounded-full my-3"} />
       </div>
-
     </div>
   )
 }
