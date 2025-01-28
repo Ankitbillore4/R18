@@ -4,6 +4,8 @@ import SectionOne from './components/SectionOne'
 import Cards from './components/Cards'
 import Slider from './components/Slider'
 import Invension from './components/Invension'
+import BottomCards from './components/BottomCards'
+
 
 const App = () => {
   return (
@@ -13,6 +15,7 @@ const App = () => {
        <Slider/>
        <Cards/>
        <Invension/>
+   <BottomCards/>
 
    </div>
   )
