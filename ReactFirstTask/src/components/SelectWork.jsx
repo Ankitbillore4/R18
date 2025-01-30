@@ -1,11 +1,9 @@
 import React from 'react'
-import Button from './Button'
 
-const SelectWork = () => {
+const SelectWork = ({text}) => {
   return (
-    <div className='h-20 w-full flex items-center justify-between px-14 border-t-1'>
-      <h1 className='text-6xl font-light'>Selected Work</h1>
-      <Button text={'All Work'} style={'px-7 py-2 border-2 border-black rounded-full'} />
+    <div className='h-20 w-full flex items-center justify-between'>
+      <h1 className='text-6xl font-light'>{text}</h1>
     </div>
   )
 }

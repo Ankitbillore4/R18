@@ -23,7 +23,7 @@ const Marketing = () => {
         return (
           <div className="h-[70vh] w-[45vw]  flex flex-col gap-2">
             <img
-              className="h-[90%] w-full bg-amber-900 "
+              className="h-[90%] w-full "
               src={`${item.img}`}
               alt=""
             />
