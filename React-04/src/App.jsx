@@ -1,11 +1,11 @@
 import React from 'react'
-import Card from '../../ReactFirstTask/src/components/Card'
-
+import Cards from './components/Cards'
 
 const App = () => {
   return (
     <div>
- <Card />
+      aap
+      <Cards/>
     </div>
   )
 }
