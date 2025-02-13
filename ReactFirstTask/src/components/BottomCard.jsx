@@ -33,7 +33,7 @@ const BottomCard = () => {
       color: "#FFFAE7",
     },
   ];
-  return data.map((item, index) => {
+  return data.map((item,index) => {
     return (
       <div>
         <div
@@ -49,5 +49,5 @@ const BottomCard = () => {
     );
   });
 };
-
+    
 export default BottomCard;
