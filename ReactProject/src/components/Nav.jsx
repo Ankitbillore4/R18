@@ -6,9 +6,7 @@ const Nav = () => {
    
        <nav className='h-full w-[20%] bg-zinc-200'>
         <div className='flex flex-col'>
-          <div className='my-7 text-center hover:scale-110'>
-        <a className='text-lg border border-blue-300 text-center py-2 px-3 shadow '>Add New Product</a>
-          </div>
+        <a className='my-7 m-auto hover:scale-110 text-lg border border-blue-300 text-center py-2 px-3 shadow '>Add New Product</a>
           <hr className='w-[80%] text-zinc-400 m-auto'/>
           <h1 className='text-xl text-center py-2 font-semibold'>Category Filter</h1>
         <ul className='flex flex-col gap-4 mt-5 pl-10'>
