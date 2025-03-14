@@ -9,7 +9,7 @@ const Details = () => {
             <h1 className='text-4xl'>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h1>
             <h2 className='my-2 text-zinc-400'>men's clothing</h2>
             <h3 className='text-red-300'>$ 109.95</h3>
-            <p className='text-sm mb-5'>Your perfect pack for everyday use and walks in the forest. 
+            <p className='text-sm mb-5'>Your perfect pack contain everyday use and walks in the forest. 
               Stash your laptop (up to 15 inches) in the padded sleeve,
                your everyday</p>
                <Link className='text-sm mr-5 m-auto hover:scale-110 border border-blue-300 text-center py-1 px-3 shadow'>Edit</Link>
