@@ -11,9 +11,9 @@ const Nav = () => {
           <h1 className='text-xl text-center py-2 font-semibold'>Category Filter </h1>
         <ul className='flex flex-col gap-4 mt-5 pl-10'>
         <li className='flex items-center gap-2 text-xl '><span className='h-4 w-4 bg-green-300 rounded-full inline-block'></span>card 1</li>
-        <li className='flex items-center gap-2 text-xl '><span className='h-4 w-4 bg-blue-300 rounded-full inline-block'></span>card 1</li>
-        <li className='flex items-center gap-2 text-xl '><span className='h-4 w-4 bg-yellow-300 rounded-full inline-block'></span>card 1</li>
-        <li className='flex items-center gap-2 text-xl '><span className='h-4 w-4 bg-red-300 rounded-full inline-block'></span>card 1</li>
+        <li className='flex items-center gap-2 text-xl '><span className='h-4 w-4 bg-blue-300 rounded-full inline-block'></span>card 2</li>
+        <li className='flex items-center gap-2 text-xl '><span className='h-4 w-4 bg-yellow-300 rounded-full inline-block'></span>card 3</li>
+        <li className='flex items-center gap-2 text-xl '><span className='h-4 w-4 bg-red-300 rounded-full inline-block'></span>card 4</li>
         </ul>
         </div>
       </nav>
