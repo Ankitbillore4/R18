@@ -4,7 +4,7 @@ const Nav = () => {
   return (
     <>
    
-       <nav className='h-full w-[20%] bg-zinc-200'>
+       <nav className='h-full w-[20%] bg-zinc-300'>
         <div className='flex flex-col'>
         <a className='my-7 m-auto hover:scale-110 text-lg border border-blue-300 text-center py-2 px-3 shadow '>Add New Product</a>
           <hr className='w-[80%] text-zinc-400 m-auto'/>
