@@ -1,12 +1,35 @@
-import React, { useContext } from 'react'
+import React, { useContext, useEffect } from 'react'
 import Nav from './Nav'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { productContext } from '../utils/Context'
 import Loading from './Loading'
+import axios from '../utils/Axios'
 
 const Home = () => {
-  const [ products ] = useContext(productContext)
-  console.log(products)
+  const [ products ] = useContext(productContext);
+  const {search} = useLocation()
+  const category = decodeURIComponent(search.split("="),[0]);
+
+  let filterProducts = products && products
+  
+  const getproductcategory = async ()=>{
+    try {
+      const {data} = await axios.get(`/products/category/${category}`)
+      filterProducts = data
+    } catch (error) {
+      console.log(error);
+      
+    }
+  };
+
+  useEffect(()=>{
+    if (category) getproductcategory();
+  },[category])
+
+  console.log(filterProducts);
+  
+
+
   return products ? (  
     <> 
     <Nav/>
