@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './components/Card'
 
-const App = () => {
+const App = () => { // changes
   return (
     <div className='h-screen w-full bg-blue-300 p-8 flex gap-5'>
       <Card name="vivek" details="chandani chouk to chaina" age="221" />
