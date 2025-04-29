@@ -5,7 +5,7 @@ const [Val, setVal] = useState("")
 const Handeler = (e)=>{
   e.preventDefault()
   
-}
+} 
   return (
     <div>
       <form className='m-12' onSubmit={(e)=>{
